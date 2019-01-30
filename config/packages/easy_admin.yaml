@@ -1,0 +1,18 @@
+imports:
+    - { resource: easy_admin/projet.yaml }
+
+easy_admin:
+    site_name: "Gros"
+
+    design:
+        brand_color: '#ff7701'
+        assets:
+            css:
+                - '/public/css/global.css'
+            js:
+
+    list:
+        actions:
+            - { name: 'show', icon: 'search', label: false }
+            - { name: 'edit', icon: 'pencil', label: false }
+            - { name: 'delete', icon: 'times', label: false }

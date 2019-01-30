@@ -1,0 +1,18 @@
+easy_admin:
+    entities:
+        Projet:
+            class: App\Entity\Projet
+            controller: App\Controller\ProjetController
+            list:
+                title: projet.list
+                fields: 
+                    - { property: 'nom', label: 'projet.nom'}
+
+            show:
+                title: Projet
+                fields: 
+                    - { property: 'nom', label: 'projet.nom'}
+
+            form:
+                fields:
+                    - { property: 'nom', label: 'projet.nom'}
